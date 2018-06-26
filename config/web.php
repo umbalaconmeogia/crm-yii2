@@ -6,9 +6,14 @@ $config=[
   'name' => 'CRM',
   'basePath' => dirname(__DIR__),
   'bootstrap' => [
+    'languagepicker',
     'log'
   ],
   'components' => [
+    'languagepicker' => [
+        'class' => 'lajax\languagepicker\Component',
+        'languages' => ['en', 'jp']                   // List of available languages (icons only)
+    ],
     'db' => require (DB_CONFIG),
     'request' => [
       // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation

@@ -67,6 +67,13 @@ AppAsset::register($this);
       'options' => ['class' => 'navbar-nav navbar-right'],
       'items' => $items,
   ]);
+  echo '<div class="navbar-text pull-right">';
+  echo \lajax\languagepicker\widgets\LanguagePicker::widget([
+        'skin' => \lajax\languagepicker\widgets\LanguagePicker::SKIN_DROPDOWN,
+        'size' => \lajax\languagepicker\widgets\LanguagePicker::SIZE_SMALL
+    ]);
+  echo '</div>';
+  
   NavBar::end();
 ?>
   <div class="wrap">

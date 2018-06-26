@@ -33,6 +33,8 @@ This is a small CRM project I developed using Yii2 framework as part of my self-
 * User accounts can be managed by admin user
 * Screenshots can be checked quickly to get an idea of application features
 
-# More detail information
+# More features added into this fork of crm-yii2
 
-[Dev memo](docs/dev.md)
+* [Setting dev environtment](docs/dev.md)
+* Language switching using [lajax/yii2-language-picker](https://www.yiiframework.com/extension/yii2-language-picker).
+* [TBD] Login attempt checking
