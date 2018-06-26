@@ -62,3 +62,10 @@ The example below assumes that 192.168.33.10 is your server's IP address.
 </VirtualHost>
 
 ```
+
+### Using yii2-check-login-attempts
+
+* Run migration
+```shell
+./yii migrate --migrationPath="@vendor/giannisdag/yii2-check-login-attempts/src/migrations"
+```
