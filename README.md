@@ -33,3 +33,6 @@ This is a small CRM project I developed using Yii2 framework as part of my self-
 * User accounts can be managed by admin user
 * Screenshots can be checked quickly to get an idea of application features
 
+# More detail information
+
+[Dev memo](docs/dev.md)
